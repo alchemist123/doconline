@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head><title>DOCTOR LOGIN</title>
+</head>
+<body background="C:\Users\khsci5mca16125\Documents\NetBeansProjects\DOCappoinmentsystem\web\photos\pa.jpg">
+    
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+                background-size: 100% 900px;
+                background-repeat: no-repeat;}
+
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 18%;
+    border-radius: 60%;
+    
+}
+
+.container {
+    padding: 16px;
+}
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 50px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 50%;
+    }
+}
+body, html {
+    height: 50%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("C:\Users\khsci5mca16125\Documents\NetBeansProjects\DOCappoinmentsystem\web\photos\do.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<center><h2 align="center">DOCTOR LOGIN</h2>
+
+
+  <div class="imgcontainer">
+    <img src="C:\Users\khsci5mca16125\Documents\NetBeansProjects\DOCappoinmentsystem\web\photos\D.png" alt="doctor" class="avatar">
+  </div>
+    <form action="doclogin">
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" >
+    <br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw">
+    <br>
+    <button type="submit">Login</button>
+    <label><br>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+
+    <center> <b><a href="docsignup.html" ><button type="button">Sign up</button></a></b><center>
+  </div>
+            </div>
+        </center>
+    </form>
+</body>
+</html>
